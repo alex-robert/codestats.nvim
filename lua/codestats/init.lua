@@ -20,6 +20,7 @@ local CodeStats = {
     send_on_timer = true, -- send xp on timer
     timer_interval = 60000, -- timer interval in milliseconds
     curl_timeout = 5, -- curl request timeout in seconds
+    api_key = vim.env.CODESTATS_API_KEY, -- add api key from env
   },
 
   current_xp_dict = {},
